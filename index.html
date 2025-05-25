@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+  <div class="container">
+
+
+    <h1>Currency Converter</h1>
+    <form>
+
+      <div class="input">
+        <label> Enter amount</label>
+        <input type="number" id="amount">
+
+
+      </div>
+      <div class="dropdown">
+
+
+        <div class="from">
+          <p>From</p>
+          <div class="currency">
+            <img src="https://flagsapi.com/US/shiny/64.png">
+
+            <select name="from">
+            </select>
+          </div>
+        </div>
+
+
+
+        <i class="fa fa-exchange" style="font-size:36px;color:black"></i>
+        <div class="to">
+          <p>To</p>
+          <div class="currency">
+            <img src="https://flagsapi.com/PK/shiny/64.png">
+
+            <select name="to">
+            </select>
+          </div>
+        </div>
+
+
+
+
+      </div>
+
+      <div class="output">
+
+        <p id="msg"></p>
+
+        <button id="btn">Get Exchange Rate</button>
+
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
