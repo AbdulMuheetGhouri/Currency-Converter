@@ -2,8 +2,6 @@
 
 A simple web-based currency converter that allows users to convert between different currencies using real-time exchange rates.
 
-![Currency Converter Screenshot](screenshot.png) <!-- Add a screenshot if available -->
-
 ## Features
 
 - Convert between 150+ world currencies
